@@ -3,7 +3,7 @@ const knex = require('knex');
 
 const knexInstance = knex({
   client: 'pg',
-  connection: 'postgresql://postgres:B3Th3B3st@localhost/knex-practice'
+  connection: `postgresql://postgres:B3Th3B3st@localhost/knex-practice`
 });
 
 function searchByGroceryName(searchTerm) {
